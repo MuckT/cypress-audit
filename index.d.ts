@@ -1,5 +1,5 @@
 declare namespace Cypress {
-  type AccessibilityStandard = 'Section508' | 'WCAG2A' | 'WCAG2AA' | 'WCAG2AAA';
+  type AccessibilityStandard = "Section508" | "WCAG2A" | "WCAG2AA" | "WCAG2AAA";
 
   interface Options {
     actions?: string[];
@@ -27,27 +27,27 @@ declare namespace Cypress {
   interface LighthouseThresholds {
     performance?: number
     accessibility?: number
-    'best-practices'?: number
+    "best-practices"?: number
     seo?: number
     pwa?: number
-    'first-contentful-paint'?: number
-    'largest-contentful-paint'?: number
-    'first-meaningful-paint'?: number
-    'load-fast-enough-for-pwa'?: number
-    'speed-index'?: number
-    'estimated-input-latency'?: number
-    'max-potential-fid'?: number
-    'server-response-time'?: number
-    'first-cpu-idle'?: number
+    "first-contentful-paint"?: number
+    "largest-contentful-paint"?: number
+    "first-meaningful-paint"?: number
+    "load-fast-enough-for-pwa"?: number
+    "speed-index"?: number
+    "estimated-input-latency"?: number
+    "max-potential-fid"?: number
+    "server-response-time"?: number
+    "first-cpu-idle"?: number
     interactive?: number
-    'mainthread-work-breakdown'?: number
-    'bootup-time'?: number
-    'network-rtt'?: number
-    'network-server-latency'?: number
+    "mainthread-work-breakdown"?: number
+    "bootup-time"?: number
+    "network-rtt"?: number
+    "network-server-latency"?: number
     metrics?: number
-    'uses-long-cache-ttl'?: number
-    'total-byte-weight'?: number
-    'dom-size'?: number
+    "uses-long-cache-ttl"?: number
+    "total-byte-weight"?: number
+    "dom-size"?: number
   }
 
   interface Chainable<Subject> {
