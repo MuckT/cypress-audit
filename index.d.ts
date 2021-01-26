@@ -1,5 +1,3 @@
-/// <reference types="cypress" />
-
 declare namespace Cypress {
   type AccessibilityStandard = 'Section508' | 'WCAG2A' | 'WCAG2AA' | 'WCAG2AAA';
 
